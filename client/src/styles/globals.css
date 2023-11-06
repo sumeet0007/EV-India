@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.input-text{
+    border: 1px solid rgb(34, 34, 34);
+    padding: 5px;
+}
+
+.submitForm {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.brandLogo {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  margin: 0 auto;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .brandCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+
+  .brandBanner {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .logoContainer {
+    width:100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .brandName {
+    font-size: 52px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .mainContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 20px 0px;
+  }
+
+  .brandDetailsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .brandGoogleUrl{
+    color: rgb(55, 55, 255);
+  }
+
+  .dealerLogo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .dealerContainer {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+    align-items: center;
+    border: 1px solid #8a8a8a;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .dealerHeadText {
+    font-size: 64px;
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  .dealerLogo {
+    width: 150px;
+    height: 150px;
+  }
+  .dealerList {
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    padding: 5px;
+  }
+
+  .dealerContainer:hover {
+    box-shadow: 0px 0px 4px 1px #5e5e5e;
+  }
+
