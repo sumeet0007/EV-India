@@ -73,23 +73,27 @@ export default function Home() {
     ]
 
   return (
+    <>
+    <img style={{padding:"10px 100px"}} src='https://evindia.online/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-b.93f6bbc4.png&w=256&q=75'></img>
     <div>
         <p className='brandName'>Brands</p>
-        <div>
+        <hr></hr>
+        <div className='brandCard'>
           {data.map((e)=>{
             return(
-                <div class="card">
+              <div class="card">
                   <Link href={e.id}>
-                    <img src={e.logoImg} alt="Avatar" style={{width:"100%"}} />
-                  </Link>
+                    <img src={e.logoImg} alt="Avatar" />
                   <div class="container">
                     <h4><b>John Doe</b></h4> 
                     <p>Architect & Engineer</p> 
                   </div>
+                </Link>
                 </div>
             )
           })}
         </div>
     </div>
+    </>
   )
 }
